@@ -10,5 +10,5 @@ target 'SmackChat' do
   # Pods for SmackChat
     pod 'Alamofire'
     pod 'SwiftyJSON'
-    pod 'Socket.IO-Client-Swift'
+    pod 'Socket.IO-Client-Swift', '~> 13.1.0'
 end
