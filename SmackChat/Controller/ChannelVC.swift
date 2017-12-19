@@ -12,6 +12,7 @@ class ChannelVC: UIViewController {
 
     // Outlets
     @IBOutlet weak var loginBtn: UIButton!
+    @IBAction func prepareforUnwidSegue (segue: UIStoryboardSegue) {}
     
     
     override func viewDidLoad() {
@@ -19,14 +20,14 @@ class ChannelVC: UIViewController {
         
         self.revealViewController().rearViewRevealWidth = view.frame.size.width - 60
 
-        
     }
 
 
     @IBAction func loginPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)
-        
     }
+    
+    
     
 
 
