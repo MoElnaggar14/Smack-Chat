@@ -10,6 +10,7 @@
 		6179E0069E211A291A737078 /* Pods_SmackChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC8D8EB99306B23893099C4 /* Pods_SmackChat.framework */; };
 		A517FACF1FE7BE3900175360 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FACE1FE7BE3900175360 /* ChatVC.swift */; };
 		A517FAD11FE7BE4E00175360 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FAD01FE7BE4E00175360 /* ChannelVC.swift */; };
+		A55721F91FEFCDD4004E521F /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55721F81FEFCDD4004E521F /* UserDataService.swift */; };
 		A56077D41FE6BABF00EBA006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56077D31FE6BABF00EBA006 /* AppDelegate.swift */; };
 		A56077D91FE6BABF00EBA006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56077D71FE6BABF00EBA006 /* Main.storyboard */; };
 		A56077DB1FE6BABF00EBA006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56077DA1FE6BABF00EBA006 /* Assets.xcassets */; };
@@ -19,12 +20,15 @@
 		A57E02781FE7F738003EF847 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E02771FE7F738003EF847 /* Constants.swift */; };
 		A58FDD681FE90C8F00D391A9 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FDD671FE90C8F00D391A9 /* CreateAccountVC.swift */; };
 		A5EB390C1FE7E673005C9505 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB390B1FE7E673005C9505 /* GradientView.swift */; };
+		A5F387431FEE5B0200FDDE4B /* CornerRaduis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F387421FEE5B0200FDDE4B /* CornerRaduis.swift */; };
+		A5F387461FEE5EC100FDDE4B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F387451FEE5EC100FDDE4B /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62A1EC879C9F857353F05AFA /* Pods-SmackChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackChat/Pods-SmackChat.debug.xcconfig"; sourceTree = "<group>"; };
 		A517FACE1FE7BE3900175360 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		A517FAD01FE7BE4E00175360 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		A55721F81FEFCDD4004E521F /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		A56077D01FE6BABF00EBA006 /* SmackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56077D31FE6BABF00EBA006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56077D81FE6BABF00EBA006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		A57E02771FE7F738003EF847 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A58FDD671FE90C8F00D391A9 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		A5EB390B1FE7E673005C9505 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A5F387421FEE5B0200FDDE4B /* CornerRaduis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRaduis.swift; sourceTree = "<group>"; };
+		A5F387451FEE5EC100FDDE4B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		BCC8D8EB99306B23893099C4 /* Pods_SmackChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD9B67C23EB0DABEBA251D0 /* Pods-SmackChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackChat/Pods-SmackChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A5EB390B1FE7E673005C9505 /* GradientView.swift */,
+				A5F387421FEE5B0200FDDE4B /* CornerRaduis.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,6 +108,7 @@
 		A56077D21FE6BABF00EBA006 /* SmackChat */ = {
 			isa = PBXGroup;
 			children = (
+				A5F387441FEE5DB600FDDE4B /* Services */,
 				A57E02761FE7F728003EF847 /* Utilites */,
 				A517FACD1FE7BE1C00175360 /* Model */,
 				A517FACC1FE7BE1600175360 /* View */,
@@ -131,6 +139,15 @@
 				A57E02771FE7F738003EF847 /* Constants.swift */,
 			);
 			path = Utilites;
+			sourceTree = "<group>";
+		};
+		A5F387441FEE5DB600FDDE4B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5F387451FEE5EC100FDDE4B /* AuthService.swift */,
+				A55721F81FEFCDD4004E521F /* UserDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		C229E71E0F58FD8DE67B6BA8 /* Frameworks */ = {
@@ -275,11 +292,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A517FACF1FE7BE3900175360 /* ChatVC.swift in Sources */,
+				A5F387431FEE5B0200FDDE4B /* CornerRaduis.swift in Sources */,
 				A56077D41FE6BABF00EBA006 /* AppDelegate.swift in Sources */,
+				A55721F91FEFCDD4004E521F /* UserDataService.swift in Sources */,
 				A58FDD681FE90C8F00D391A9 /* CreateAccountVC.swift in Sources */,
 				A57E02781FE7F738003EF847 /* Constants.swift in Sources */,
 				A57E02751FE7F53A003EF847 /* LoginVC.swift in Sources */,
 				A5EB390C1FE7E673005C9505 /* GradientView.swift in Sources */,
+				A5F387461FEE5EC100FDDE4B /* AuthService.swift in Sources */,
 				A56077E91FE6BB5C00EBA006 /* SWRevealViewController.m in Sources */,
 				A517FAD11FE7BE4E00175360 /* ChannelVC.swift in Sources */,
 			);
