@@ -48,7 +48,7 @@ class CreateAccountVC: UIViewController {
     }
     
     @IBAction func PickAvatarImg(_ sender: Any) {
-        
+        performSegue(withIdentifier: TO_AVATARPICKER, sender: nil)
     }
     
     

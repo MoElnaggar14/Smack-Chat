@@ -10,6 +10,8 @@
 		6179E0069E211A291A737078 /* Pods_SmackChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC8D8EB99306B23893099C4 /* Pods_SmackChat.framework */; };
 		A517FACF1FE7BE3900175360 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FACE1FE7BE3900175360 /* ChatVC.swift */; };
 		A517FAD11FE7BE4E00175360 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FAD01FE7BE4E00175360 /* ChannelVC.swift */; };
+		A54B76B31FEFE92E00024552 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B76B21FEFE92E00024552 /* AvatarPickerVC.swift */; };
+		A54B76B71FEFEBBF00024552 /* AvatarPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B76B61FEFEBBF00024552 /* AvatarPickerCell.swift */; };
 		A55721F91FEFCDD4004E521F /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55721F81FEFCDD4004E521F /* UserDataService.swift */; };
 		A56077D41FE6BABF00EBA006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56077D31FE6BABF00EBA006 /* AppDelegate.swift */; };
 		A56077D91FE6BABF00EBA006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56077D71FE6BABF00EBA006 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		62A1EC879C9F857353F05AFA /* Pods-SmackChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackChat/Pods-SmackChat.debug.xcconfig"; sourceTree = "<group>"; };
 		A517FACE1FE7BE3900175360 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		A517FAD01FE7BE4E00175360 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		A54B76B21FEFE92E00024552 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		A54B76B61FEFEBBF00024552 /* AvatarPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerCell.swift; sourceTree = "<group>"; };
 		A55721F81FEFCDD4004E521F /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		A56077D01FE6BABF00EBA006 /* SmackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56077D31FE6BABF00EBA006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 				A517FAD01FE7BE4E00175360 /* ChannelVC.swift */,
 				A57E02741FE7F53A003EF847 /* LoginVC.swift */,
 				A58FDD671FE90C8F00D391A9 /* CreateAccountVC.swift */,
+				A54B76B21FEFE92E00024552 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 			children = (
 				A5EB390B1FE7E673005C9505 /* GradientView.swift */,
 				A5F387421FEE5B0200FDDE4B /* CornerRaduis.swift */,
+				A54B76B61FEFEBBF00024552 /* AvatarPickerCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,11 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A517FACF1FE7BE3900175360 /* ChatVC.swift in Sources */,
+				A54B76B31FEFE92E00024552 /* AvatarPickerVC.swift in Sources */,
 				A5F387431FEE5B0200FDDE4B /* CornerRaduis.swift in Sources */,
 				A56077D41FE6BABF00EBA006 /* AppDelegate.swift in Sources */,
 				A55721F91FEFCDD4004E521F /* UserDataService.swift in Sources */,
 				A58FDD681FE90C8F00D391A9 /* CreateAccountVC.swift in Sources */,
 				A57E02781FE7F738003EF847 /* Constants.swift in Sources */,
+				A54B76B71FEFEBBF00024552 /* AvatarPickerCell.swift in Sources */,
 				A57E02751FE7F53A003EF847 /* LoginVC.swift in Sources */,
 				A5EB390C1FE7E673005C9505 /* GradientView.swift in Sources */,
 				A5F387461FEE5EC100FDDE4B /* AuthService.swift in Sources */,

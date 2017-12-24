@@ -16,6 +16,7 @@ import Foundation
 let TO_LOGIN = "to_login"
 let TO_CREATEACCOUNT = "toCreateAccount"
 let UNWIND_TOCHANNEL = "unwindToChannel"
+let TO_AVATARPICKER = "toAvatarPicker"
 
 // User defaults
 let LOGGED_KEY = "is Logged"
