@@ -53,7 +53,7 @@ class CreateAccountVC: UIViewController {
             if success {
                 AuthServices.instance.LoginUserEmail(email: email, password: password, Completion: { (success) in
                     AuthServices.instance.CreateUser(name: name, email: email, avatarName: self.avatarName, avatarColor: self.avatarColor, Compleation: { (Success) in
-                        self.spineer.startAnimating()
+                        self.spineer.stopAnimating()
                         self.spineer.isHidden = true
                         self.performSegue(withIdentifier: UNWIND_TOCHANNEL, sender: nil)
                         
@@ -79,6 +79,7 @@ class CreateAccountVC: UIViewController {
       
         
         bgColor = UIColor(red: r, green: b, blue: g, alpha: 1)
+        avatarColor = "[\(r), \(g), \(b), 1]"
         UIView.animate(withDuration: 0.2) {
             self.userimag.backgroundColor = self.bgColor
         }

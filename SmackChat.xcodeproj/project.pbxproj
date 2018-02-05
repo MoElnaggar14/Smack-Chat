@@ -22,6 +22,8 @@
 		A57E02751FE7F53A003EF847 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E02741FE7F53A003EF847 /* LoginVC.swift */; };
 		A57E02781FE7F738003EF847 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E02771FE7F738003EF847 /* Constants.swift */; };
 		A58FDD681FE90C8F00D391A9 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FDD671FE90C8F00D391A9 /* CreateAccountVC.swift */; };
+		A5A2030B2028620100E2ADAD /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A203092028620100E2ADAD /* ProfileVC.swift */; };
+		A5A2030C2028620100E2ADAD /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A2030A2028620100E2ADAD /* ProfileVC.xib */; };
 		A5EB390C1FE7E673005C9505 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB390B1FE7E673005C9505 /* GradientView.swift */; };
 		A5F387431FEE5B0200FDDE4B /* CornerRaduis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F387421FEE5B0200FDDE4B /* CornerRaduis.swift */; };
 		A5F387461FEE5EC100FDDE4B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F387451FEE5EC100FDDE4B /* AuthService.swift */; };
@@ -47,6 +49,8 @@
 		A57E02741FE7F53A003EF847 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A57E02771FE7F738003EF847 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A58FDD671FE90C8F00D391A9 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		A5A203092028620100E2ADAD /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A5A2030A2028620100E2ADAD /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		A5EB390B1FE7E673005C9505 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		A5F387421FEE5B0200FDDE4B /* CornerRaduis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRaduis.swift; sourceTree = "<group>"; };
 		A5F387451FEE5EC100FDDE4B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 				A57E02741FE7F53A003EF847 /* LoginVC.swift */,
 				A58FDD671FE90C8F00D391A9 /* CreateAccountVC.swift */,
 				A54B76B21FEFE92E00024552 /* AvatarPickerVC.swift */,
+				A5A203092028620100E2ADAD /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 		A56077D21FE6BABF00EBA006 /* SmackChat */ = {
 			isa = PBXGroup;
 			children = (
+				A5A2030D2028621900E2ADAD /* XIBs */,
 				A5F387441FEE5DB600FDDE4B /* Services */,
 				A57E02761FE7F728003EF847 /* Utilites */,
 				A517FACD1FE7BE1C00175360 /* Model */,
@@ -148,6 +154,14 @@
 				A57E02771FE7F738003EF847 /* Constants.swift */,
 			);
 			path = Utilites;
+			sourceTree = "<group>";
+		};
+		A5A2030D2028621900E2ADAD /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2030A2028620100E2ADAD /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		A5F387441FEE5DB600FDDE4B /* Services */ = {
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A2030C2028620100E2ADAD /* ProfileVC.xib in Resources */,
 				A56077DE1FE6BABF00EBA006 /* LaunchScreen.storyboard in Resources */,
 				A56077DB1FE6BABF00EBA006 /* Assets.xcassets in Resources */,
 				A56077D91FE6BABF00EBA006 /* Main.storyboard in Resources */,
@@ -300,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A2030B2028620100E2ADAD /* ProfileVC.swift in Sources */,
 				A517FACF1FE7BE3900175360 /* ChatVC.swift in Sources */,
 				A54B76B31FEFE92E00024552 /* AvatarPickerVC.swift in Sources */,
 				A5F387431FEE5B0200FDDE4B /* CornerRaduis.swift in Sources */,
